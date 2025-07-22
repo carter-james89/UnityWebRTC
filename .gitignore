@@ -1,54 +1,30 @@
-# Unity generated
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/[Mm]emoryCaptures/
-/[Rr]ecordings/
+# ──────────────────────────────────────────────────────────────────────────────
+# OS & Editor files
+# ──────────────────────────────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Rider plugin
-/[Aa]ssets/Plugins/Editor/JetBrains*
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Visual Studio
-.vs/
-/ExportedObj/
-/.consulo/
-*.csproj
-*.unityproj
-*.sln
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
+# VS Code
+.vscode/
 
-# Crash reports
-sysinfo.txt
+# JetBrains IDEs
+.idea/
+*.iml
 
-# Android / Gradle
-.gradle/
-/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/[Aa]ssets/[Ss]treamingAssets/aa/*
-
-# Unity build artifacts
-*.apk
-*.aab
-*.unitypackage
-*.app
-
-# Addressables
-/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-
-# Python environment and artifacts
+# ──────────────────────────────────────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────────────────────────────────────
+# Byte‑compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
 # Virtual environments
 /venv/
@@ -56,19 +32,11 @@ sysinfo.txt
 /env/
 /.venv/
 /.env/
-**/venv/
+/**/venv/
 /**/ENV/
 /**/env/
 /**/.venv/
 /**/.env/
-
-# Byte‑compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -77,21 +45,13 @@ develop-eggs/
 dist/
 downloads/
 eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
 *.egg-info/
 .installed.cfg
 *.egg
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
 *.spec
+*.manifest
 
 # Installer logs
 pip-log.txt
@@ -102,24 +62,73 @@ htmlcov/
 .tox/
 .nox/
 .coverage
-.coverage.*
 .cache
 pytest_cache/
 
-# mypy
+# Type checkers
 .mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
 .pyre/
 
-# VSCode settings
-.vscode/
+# ──────────────────────────────────────────────────────────────────────────────
+# Unity (project lives at Unity/WebRTC Client)
+# ──────────────────────────────────────────────────────────────────────────────
+# Built data folders
+/Unity/WebRTC Client/[Ll]ibrary/
+/Unity/WebRTC Client/[Tt]emp/
+/Unity/WebRTC Client/[Oo]bj/
+/Unity/WebRTC Client/[Bb]uild/
+/Unity/WebRTC Client/[Bb]uilds/
+/Unity/WebRTC Client/[Ll]ogs/
+/Unity/WebRTC Client/[Uu]ser[Ss]ettings/
+/Unity/WebRTC Client/[Mm]emoryCaptures/
+/Unity/WebRTC Client/[Rr]ecordings/
 
-# JetBrains IDEs
+# Crash reports
+/Unity/WebRTC Client/sysinfo.txt
+
+# Android / Gradle
+/Unity/WebRTC Client/.gradle/
+/Unity/WebRTC Client/Assets/StreamingAssets/aa.meta
+/Unity/WebRTC Client/Assets/StreamingAssets/aa/*
+
+# Unity build artifacts
+/Unity/WebRTC Client/*.apk
+/Unity/WebRTC Client/*.aab
+/Unity/WebRTC Client/*.unitypackage
+/Unity/WebRTC Client/*.app
+
+# Addressables (if you use them)
+/Unity/WebRTC Client/Assets/AddressableAssetsData/*/*.bin*
+
+# Rider plugin (if present)
+/Unity/WebRTC Client/Assets/Plugins/Editor/JetBrains*
+
+# Shader compiler / metadata
+/Unity/WebRTC Client/Library/ShaderCache/
+
+/Unity/WebRTC Client/Packages/packages-lock.json
+/Unity/WebRTC Client/ProjectSettings/ProjectVersion.txt
+
+# ──────────────────────────────────────────────────────────────────────────────
+# IDE / build files
+# ──────────────────────────────────────────────────────────────────────────────
+# Visual Studio
+.vs/
+/ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Rider
 .idea/
-/*.iml
-
-# Local Python packaging
-__pypackages__/
+*.iml

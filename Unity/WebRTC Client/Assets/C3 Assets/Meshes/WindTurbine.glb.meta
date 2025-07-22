@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3d204e649cde88b45aebfaf2882a444a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windmill
+    second: {fileID: 2100000, guid: 61ae131289b02d64f8adf0e82cc1b4e7, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_0
+    second: {fileID: 2800000, guid: 38d77c64ab0b42f4bbde78f015ffced0, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
